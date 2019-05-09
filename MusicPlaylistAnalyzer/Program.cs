@@ -94,6 +94,7 @@ namespace MusicPlaylistAnalyzer
                             catch (Exception e)
                             {
                                 Console.WriteLine("Exception: {0}", e);
+                                Environment.Exit(0);
                             }
 
                         }
@@ -224,6 +225,7 @@ namespace MusicPlaylistAnalyzer
                 catch (Exception e)
                 {
                     Console.WriteLine("Exception: {0}", e);
+                    Environment.Exit(0);
                 }
 
             }
